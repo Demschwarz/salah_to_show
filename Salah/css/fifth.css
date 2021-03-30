@@ -1,0 +1,86 @@
+.fifth {
+  padding-top: 10rem;
+  background: url("./../img/contacts/background.png");
+  background-size: 100% 100%;
+  background-repeat: repeat-y; }
+  .fifth_span {
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 43px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5rem; }
+
+.map_little {
+  display: none; }
+
+.map_middle {
+  display: none; }
+
+.map_big {
+  display: block; }
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .contacts_form {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .contacts_label {
+    margin-top: 2rem; }
+  .contacts_form {
+    background-color: #fff;
+    border: 1px solid #4A5E91;
+    border-radius: 1rem;
+    padding: 0 2rem 2rem 2rem; }
+  .contacts_input {
+    border: 0.5px solid blue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #4A5E91;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgba(1, 65, 140, 0.1); }
+  .contacts_btn {
+    margin-top: 2rem;
+    position: relative;
+    background: #13907C;
+    box-shadow: 0px 10px 15px rgba(6, 138, 117, 0.3);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-right: 3rem; }
+    .contacts_btn_img {
+      position: absolute;
+      right: -4%;
+      bottom: -10%;
+      width: 3rem;
+      height: 3rem; }
+  .contacts_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7rem;
+    margin-bottom: 3rem; }
+    .contacts_footer_span {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 27px;
+      color: #0B2E87; }
+    .contacts_footer_tel {
+      display: flex;
+      align-items: center; }
+      .contacts_footer_tel_link {
+        margin-left: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        color: #0B2E87; }
