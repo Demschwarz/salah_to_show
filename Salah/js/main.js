@@ -2,15 +2,10 @@ window.addEventListener('DOMContentLoaded', function() {
     let width = screen.width;
   if (width >= 1200 ) {
     mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
       loop: true,
-    
-      // If we need pagination
       pagination: {
         el: '.swiper-pagination',
       },
-    
-      // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -21,15 +16,10 @@ window.addEventListener('DOMContentLoaded', function() {
   }
   if (width < 1200 && width > 600) {
     mySwiper1 = new Swiper ('.swiper-container', {
-      // Optional parameters
       loop: true,
-    
-      // If we need pagination
       pagination: {
         el: '.swiper-pagination',
       },
-    
-      // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -40,15 +30,10 @@ window.addEventListener('DOMContentLoaded', function() {
   };
   if (width < 600) {
     mySwiper2 = new Swiper ('.swiper-container', {
-      // Optional parameters
       loop: true,
-    
-      // If we need pagination
       pagination: {
         el: '.swiper-pagination',
       },
-    
-      // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -57,36 +42,21 @@ window.addEventListener('DOMContentLoaded', function() {
     });
   };
   mySwiper_ex_1 = new Swiper ('.swiper-container_example_first', {
-    // Optional parameters
     loop: false,
-
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination_ex_1',
     },
-
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
     slidesPerView: 1
   });
   mySwiper_ex_2 = new Swiper ('.swiper-container_example_second', {
-    // Optional parameters
     loop: false,
-
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination_ex_2',
     },
-
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
